@@ -20,3 +20,4 @@ Work In Progress
 - Might need to give the TF account explicit access to the repo first.
 - In `vpc.tf`, replace `EXAMPLE` with your workspace name
 - In `route53.tf`, replace `example` with your workspace name
+- In `sg.tf`, replace `EXAMPLE` with your workspace name
