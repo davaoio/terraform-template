@@ -1,3 +1,4 @@
+/*
 resource "aws_instance" "example" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = "t3.micro"
@@ -169,3 +170,5 @@ resource "aws_route53_record" "example_ec2" {
 output "aws_example_ec2_instance" {
   value = "${aws_instance.example.public_dns}"
 }
+
+*/

@@ -1,3 +1,4 @@
+/*
 resource "aws_instance" "deploy" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = "t3a.micro"
@@ -99,3 +100,4 @@ resource "aws_route53_record" "deploy" {
 output "aws_instance_deploy" {
   value = "${aws_instance.deploy.public_dns}"
 }
+*/
