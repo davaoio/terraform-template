@@ -6,6 +6,7 @@ output "name_servers_example" {
   value = "${aws_route53_zone.example.name_servers}"
 }
 
+/*
 resource "aws_route53_record" "googleauth" {
   zone_id = aws_route53_zone.example.zone_id
   name    = ""
@@ -42,3 +43,5 @@ resource "aws_route53_record" "root" {
 
   ttl = "3600"
 }
+
+*/
