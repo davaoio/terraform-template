@@ -21,3 +21,8 @@ Work In Progress
 - In `vpc.tf`, replace `EXAMPLE` with your workspace name
 - In `route53.tf`, replace `example` with your workspace name
 - In `sg.tf`, replace `EXAMPLE` with your workspace name
+- Run `terraform fmt` to make sure all files are formatted correctly
+- Run `terraform plan` to verify everything works.
+- Planning runs in TFC, so your local machine doesn't need to be configured for AWS
+- If plan works fine, commit and push to master. TFC will take it from there.
+- In TFC, review the plan and confirm
