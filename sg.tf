@@ -1,3 +1,4 @@
+/* Used for static IP admins
 resource "aws_security_group" "sysops" {
   name        = "sysops"
   description = "sysops"
@@ -18,6 +19,7 @@ resource "aws_security_group" "sysops" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
+*/
 
 resource "aws_security_group" "public_web" {
   name        = "public_web"
